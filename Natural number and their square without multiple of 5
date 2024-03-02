@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+ for(i=1;i<=20;i++)
+ {
+     if(i%5==0)
+     {
+         continue ;
+     }
+     printf("%d",i);
+     printf(" %d\n",i*i);
+ }
+printf("iam out of the loop");
+
+    return 0;
+}
